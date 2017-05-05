@@ -1,0 +1,44 @@
+nav{
+	ul{
+		li{
+			a{
+				&:after{
+					top: 30px;
+				}
+			}
+		}
+	}
+}
+.logotype{
+img{
+	    position: absolute;
+    top: -53px;
+        margin: auto;
+    position: absolute;
+    top: -43px;
+    left: 0;
+    right: 0;
+
+}
+.piece1, .piece2, .piece3, .piece4, .piece5{
+	display: none;
+}
+	
+}
+.changeLang{
+	.pentagon{
+	background: #ffb04a;
+}
+
+}
+.contact {
+	.icon{
+	background: #ffb04a;
+	}
+}
+.cv {
+		.icon{
+	background: #ffb04a;
+
+		}
+	}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pl en">
+<head>
+	<title>Ewa Łokas - frontend developer</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<link rel="icon" type="image/png" href="<%= asset_path('images/favicon-32x32.png') %>" sizes="32x32" />
+	<%= favicon_link_tag 'favicon-32x32.png', rel: 'icon', type: 'image/png', sizes: '32x32' %>
+	<%= favicon_link_tag 'favicon-16x16.png', rel: 'icon', type: 'image/png', sizes: '16x16' %>
+	<%= favicon_link_tag 'favicon.ico', rel: 'icon', type: 'image/x-icon' %>
+
+	<meta charset="utf-8" />
+	<meta name="keywords" content="Ewa Łokas, portfolio, frontend developer, backend developer, webdeveloper, HTML5, CSS3, javaScript, Ruby on Rails, PHP5, design, websites, applications, mobile, responsive web design, user experience, usability, cross browsers, grafika, projektowanie, strony www, strony internetowe, aplikacje internetowe, strony responsywne">
+    <meta name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="googlebot" content="noodp">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Ewa Łokas">
+    <meta property="og:description" content="Portfolio frontend developer">
+    <meta property="og:image" content="<%= asset_url('app/assets/images/logo_zakladka.png') %>">
+    <meta property="og:url" content="<%= root_url %>">
+    <meta property="og:type" content="website">
+<!--[if IE 8]>
+    <link rel="stylesheet" media="all" href="/assets/style_for_ie.css.scss" data-turbolinks-track="true" />
+<![endif]-->
+	<%= csrf_meta_tags %>
+</head>
+<body>
+	<header>
+			<div class="changeLang">
+			<div class="pentagon hamburger" id="hamburger">			
+				<div class="piece1"></div>
+				<div class="piece2"></div>
+				<div class="piece3"></div>
+				<div class="piece4"></div>
+				<div class="piece5"></div>
+				<div class="line"></div>	
+				<div class="line"></div>	
+				<div class="line"></div>	
+				
+
+				<span></span>
+			</div>
+			<div class="pentagon">			
+				<div class="piece1"></div>
+				<div class="piece2"></div>
+				<div class="piece3"></div>
+				<div class="piece4"></div>
+				<div class="piece5"></div>	
+				<%= link_to('En', url_for( :locale => 'en' )) %>
+			</div>
+			
+			<div class="pentagon">
+
+				<div class="piece1"></div>
+				<div class="piece2"></div>	
+				<div class="piece3"></div>
+				<div class="piece4"></div>
+				<div class="piece5"></div>
+				<%= link_to('Pl', url_for( :locale => 'pl' )) %>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+		<h1>Frontend Developer - Ewa Łokas</h1>
+		<div class="logotype logotype_two">
+			<div class="containerPentagon">
+						<div class="piece1"></div>
+						<div class="piece2"></div>	
+						<div class="piece3"></div>
+						<div class="piece4"></div>
+						<div class="piece5"></div>
+						<%= image_tag("logo.png", class: "logo", alt: "logo") %>
+					</div>
+					</div>
+					<!--[if IE 8]>
+   <%= image_tag("logotype.png") %>
+<![endif]-->
+		<nav id="menu">
+
+		<h1>Menu</h1>
+
+			<ul>
+				<li><%= link_to t('home') , home_path, class: ("active" if params[:controller] == 'home' ) %></li>
+				<li><%= link_to t('portfolio') , portfolio_path, class: ("active" if params[:controller] == 'portfolio' ) %></li>
+				<li class="logotype">
+					<div class="containerPentagon">
+						<div class="piece1"></div>
+						<div class="piece2"></div>	
+						<div class="piece3"></div>
+						<div class="piece4"></div>
+						<div class="piece5"></div>
+						<%= image_tag("logo.png", class: "logo", alt: "logo") %>
+					</div>
+					<!--[if IE 8]>
+   <%= image_tag("logotype.png") %>
+<![endif]-->
+			
+					
+					<!-- <span>Developer</span>  -->
+				</li>
+				<li><%= link_to t('cv') , curriculum_vitae_path, class: ("active" if params[:controller] == 'curriculum_vitae' ) %></li>
+				<li><%= link_to t('contact') , contact_path, class: ("active" if params[:controller] == 'contact' ), id: "contact" %></li>
+			</ul>
+		</nav>
+
+	</header>
+			<div class="pattern">
+			<div class="pentagon">		
+				<div class="piece1"></div>
+				<div class="piece2"></div>	
+				<div class="piece3"></div>
+				<div class="piece4"></div>
+				<div class="piece5"></div>
+			</div>
+			<div class="pentagon">		
+				<div class="piece1"></div>
+				<div class="piece2"></div>	
+				<div class="piece3"></div>
+				<div class="piece4"></div>
+				<div class="piece5"></div>
+			</div>
+			<div class="pentagon">		
+				<div class="piece1"></div>
+				<div class="piece2"></div>	
+				<div class="piece3"></div>
+				<div class="piece4"></div>
+				<div class="piece5"></div>
+			</div>
+			<div class="pentagon">		
+				<div class="piece1"></div>
+				<div class="piece2"></div>	
+				<div class="piece3"></div>
+				<div class="piece4"></div>
+				<div class="piece5"></div>
+			</div>
+			<div class="pentagon">		
+				<div class="piece1"></div>
+				<div class="piece2"></div>	
+				<div class="piece3"></div>
+				<div class="piece4"></div>
+				<div class="piece5"></div>
+			</div>
+			<div class="pentagon">		
+				<div class="piece1"></div>
+				<div class="piece2"></div>	
+				<div class="piece3"></div>
+				<div class="piece4"></div>
+				<div class="piece5"></div>
+			</div>
+			<div class="pentagon">		
+				<div class="piece1"></div>
+				<div class="piece2"></div>	
+				<div class="piece3"></div>
+				<div class="piece4"></div>
+				<div class="piece5"></div>
+			</div>
+		</div>
+	<div class="container">
+		<!-- in section (this section is for all links add in other files h1 tags) there are contents , background content  -->	
+		<%= yield %>
+	</div>
+	<footer>
+		<p>copyright by Ewa Łokas 2016</p>
+	</footer>
+</body>
+</html>

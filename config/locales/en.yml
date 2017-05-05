@@ -1,0 +1,124 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello world"
+  home: "About me"
+  portfolio: "Portfolio"
+  cv: "Cv"
+  contact: "Contact"
+  cvHeader: "Curriculum Vitae"
+#home
+  text1: "I’m webdeveloper for 4 years. I work freelance and in work.
+    I have 4 years experience. I work in PHP, Rouby On Rail ,
+    Java Script, jQuery, Wordpress, Bootstrap, SASS , HTML
+    , CSS. I work in technologies/ languages. In free time i like ."
+  text2: "I’m webdeveloper for 4 years. I work freelance and in work.
+    I have 4 years experience. I work in PHP, Rouby On Rail ,
+    Java Script, jQuery, Wordpress, Bootstrap, SASS , HTML
+    , CSS. I work in technologies/ languages. In free time i like ."
+#form
+  name: "Name*"
+  surname: "Surname*"
+  email: "E-mail*"
+  phone: "Phone*"
+  message: "Your Message*"
+  error_validation: "Correct the mistakes in the form:"
+  error_server_send: "Message delivery problem."
+  send_communicate: "Your message is sent."
+#portfolio
+  see_more: "See More"
+#cv
+  skills: "PROGRAMMING SKILLS"
+  skillsHeader1: "Programming And Webmastering"
+  skillsHeader2: "Libraries And Preprocessors"
+  skillsHeader3: "Frameworks"
+  skillsHeader4: "Operating Systems"
+  skillsHeader5: "Databases"
+  skillsHeader6: "Systems Version Control"
+  skillsHeader7: "CMS And Engines Online Stores"
+  skillsHeader8: "Grahics Programs"
+  skillsHeader9: "Patterns And Techniques"
+  experience: "Relevant Experience"
+  education: "EDUCATION"
+  clause: "I hereby agree for my personal data, included in my job application, to be processed in
+    line with the needs of recruitment, in accordance with the Law on Personal Data
+    Protection of 29 August 1997 (Law Gazette from 2002, No.101, heading 926, as
+    amended)"
+  hard: "Hard"
+  medium: "Medium"
+  basic: "Basic"
+  actually: "actually"
+  for_system: "(service and administration)"
+  logicims_brand_desc: "- website created in Ruby on Rails. I coded template."
+  adretail_brand_desc: "- website maked in PHP and Wordpress. I coded a template."
+  contest: "contest"
+  acidolac_brand_desc: "- website maked in Ruby on Rails. I
+      coded layer frontend in
+      javaScript, CSS3, HTML5 and SASS."
+  promocyjni_brand_desc: " - I added new modules in website."
+  grapeapps_brand_desc: "- I cutted template. "
+  essence_brand_desc: "- I cutted template."
+  inpost_brand_desc: "- This website maked in Typo3. I added new modules in website. "
+  weknowhow_brand_desc: "- I added new modules in website. "
+  gallerykazimierz_brand_desc: "I created responsive pages in JS and CSS, loading tiles used isotope. "
+  hipp_brand_desc: "- module invite to play in PHP (send e-mail to the address validation, SQL hash)
+      filtering and sorting calendar"
+  mennica_brand_desc: "- I created search the nearest points of banking."
+  podstadionem_brand_desc: "- I coded layer frontend."
+  falservices_brand: "Work with e-commerce platform, 3D and company store 
+Create Unit Tests (PHPUnit), mock, dummy, stub, fake
+Create a platform for fremework Symfony2
+the creation of modules login, register, work with the database, create pages without
+reloading."
+  training: "training"
+  maszyna_brand_desc: "cutting templates and coding to the szablony.org"
+  study: "Technical Physics - Cracow University of Technology"
+  school: "Technician with a specialization in web applications - Technical Energy and Electronic them. Tadeusza Kosciuszki No. 7 in Cracow."
+  mail_form:
+    errors:
+      models:
+        contact: # or namespace/model_name
+          attributes:
+            name:
+              bad_long_name: "The maximum number of characters that %{count}."
+              bad_empty_name: "Your name is empty"
+              bad_format_name: "Valid name format only letters"
+              bad_long_short_name: "The minimum number of characters that %{count}." 
+            surname:
+              bad_long_surname: "The maximum number of characters that %{count}."
+              bad_empty_surname: "Your surname is empty."
+              bad_format_surname: "Valid surname format only letters."
+              bad_long_short_surname: "The minimum number of characters that %{count}." 
+            phone:
+              bad_long_phone: "The maximum number of characters that %{count}."
+              bad_empty_phone: "Your phone is empty."
+              bad_format_phone: "Valid phone format, only letters."
+              bad_long_short_phone: "The minimum number of characters that %{count}."    
+            email:
+              bad_long_email: "The maximum number of characters that %{count}."
+              bad_empty_email: "Your e-mail is empty."
+              bad_format_email: "Valid format e-mail."
+              bad_long_short_email: "The minimum number of characters that %{count}."   
+            message_text:
+              bad_long_message: "The maximum number of characters that %{count}."
+              bad_empty_message: "Type a message."
+              bad_long_short_message: "The minimum number of characters that %{count}."           

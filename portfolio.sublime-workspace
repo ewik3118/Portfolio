@@ -1,0 +1,489 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"contac",
+				"contactHref"
+			],
+			[
+				"cont",
+				"contactHref"
+			],
+			[
+				"err",
+				"errorName"
+			],
+			[
+				"message",
+				"message_text"
+			],
+			[
+				"validates_",
+				"validates_length_of"
+			],
+			[
+				"Action",
+				"action_mailer"
+			],
+			[
+				"messag",
+				"message_text"
+			],
+			[
+				"max",
+				"maximum"
+			],
+			[
+				"ski",
+				"skillsHeader8"
+			],
+			[
+				"sk",
+				"skillsHeader7"
+			],
+			[
+				"En",
+				"En"
+			],
+			[
+				"right",
+				"rightClick"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"width",
+				"max-width"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"fo",
+				"forPicture"
+			],
+			[
+				"conte",
+				"contentAbout"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"con",
+				"containerPentagon"
+			],
+			[
+				"PH",
+				"phabletSm"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"a",
+				"absolute"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: I",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: instal package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Ruby23/rails/Portfolio/app",
+		"/C/Ruby23/rails/Portfolio/app/assets",
+		"/C/Ruby23/rails/Portfolio/app/assets/javascripts",
+		"/C/Ruby23/rails/Portfolio/app/assets/stylesheets",
+		"/C/Ruby23/rails/Portfolio/app/controllers",
+		"/C/Ruby23/rails/Portfolio/app/models",
+		"/C/Ruby23/rails/Portfolio/app/models/concerns",
+		"/C/Ruby23/rails/Portfolio/app/views",
+		"/C/Ruby23/rails/Portfolio/app/views/layouts",
+		"/C/Ruby23/rails/Portfolio/config",
+		"/C/Ruby23/rails/Portfolio/config/locales",
+		"/C/Ruby23/rails/Portfolio/db",
+		"/C/Ruby23/rails/Portfolio/db/migrate",
+		"/C/Ruby23/rails/Portfolio/public",
+		"/C/Users/Ewa/Desktop/logiconepager/app",
+		"/C/Users/Ewa/Desktop/logiconepager/app/assets",
+		"/C/Users/Ewa/Desktop/logiconepager/app/assets/javascripts",
+		"/C/Users/Ewa/Desktop/logiconepager/app/views",
+		"/C/Users/Ewa/Desktop/logiconepager/app/views/messages",
+		"/C/xampp/htdocs/biblioteka"
+	],
+	"file_history":
+	[
+		"/C/Ruby23/rails/Portfolio/app/views/contact/index.html.erb",
+		"/C/Ruby23/rails/Portfolio/app/assets/stylesheets/style.css.scss",
+		"/C/Ruby23/rails/Portfolio/app/controllers/contact_controller.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/views/messages/new.html.erb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/views/messages/_new1.html.erb",
+		"/C/Ruby23/rails/Portfolio/app/models/contact.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/models/contact_form.rb",
+		"/C/Ruby23/rails/Portfolio/app/assets/javascripts/form.js",
+		"/C/Ruby23/rails/Portfolio/app/views/layouts/application.html.erb",
+		"/C/Ruby23/rails/Portfolio/app/assets/javascripts/popup_gallery.js",
+		"/C/Users/Ewa/Desktop/logiconepager/app/models/client.rb",
+		"/C/Ruby23/rails/Portfolio/app/assets/javascripts/application.js",
+		"/C/Ruby23/rails/Portfolio/app/assets/javascripts/html5shiv-printshiv.js",
+		"/C/Ruby23/rails/Portfolio/app/assets/javascripts/html5shiv.js",
+		"/C/Ruby23/rails/Portfolio/config/locales/en.yml",
+		"/C/Ruby23/rails/Portfolio/config/locales/pl.yml",
+		"/C/Users/Ewa/Desktop/logiconepager/config/locales/en.yml",
+		"/C/Users/Ewa/Desktop/logiconepager/app/models/tool.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/models/setting.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/models/service.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/models/person.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/models/job_offer.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/models/item.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/models/admin.rb",
+		"/C/Ruby23/rails/Portfolio/config/application.rb",
+		"/C/Ruby23/rails/Portfolio/config/environments/production.rb",
+		"/C/Ruby23/rails/Portfolio/Gemfile",
+		"/C/Ruby23/rails/Portfolio/config/initializers/application_controller_renderer.rb",
+		"/C/Ruby23/rails/Portfolio/config/initializers/assets.rb",
+		"/C/Ruby23/rails/Portfolio/config/initializers/backtrace_silencers.rb",
+		"/C/Ruby23/rails/Portfolio/config/initializers/cookies_serializer.rb",
+		"/C/Ruby23/rails/Portfolio/config/initializers/filter_parameter_logging.rb",
+		"/C/Ruby23/rails/Portfolio/config/initializers/inflections.rb",
+		"/C/Ruby23/rails/Portfolio/config/initializers/load_smtp.config.rb",
+		"/C/Ruby23/rails/Portfolio/config/initializers/locale.rb",
+		"/C/Ruby23/rails/Portfolio/config/initializers/mime_types.rb",
+		"/C/Ruby23/rails/Portfolio/config/initializers/new_framework_defaults.rb",
+		"/C/Ruby23/rails/Portfolio/config/initializers/session_store.rb",
+		"/C/Ruby23/rails/Portfolio/config/initializers/wrap_parameters.rb",
+		"/C/Ruby23/rails/Portfolio/config/environment.rb",
+		"/C/Ruby23/rails/Portfolio/config/puma.rb",
+		"/C/Ruby23/rails/Portfolio/config/smtp_config.yml",
+		"/C/Ruby23/rails/Portfolio/config/routes.rb",
+		"/C/Ruby23/rails/Portfolio/config/secrets.yml",
+		"/C/Ruby23/rails/Portfolio/public/404.html",
+		"/C/Ruby23/rails/Portfolio/config/environments/development.rb",
+		"/C/Ruby23/rails/Portfolio/app/mailers/application_mailer.rb",
+		"/C/Ruby23/rails/Portfolio/app/models/application_record.rb",
+		"/C/Ruby23/rails/Portfolio/app/mailers/send_email_mailer.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/config/locales/devise.en.yml",
+		"/C/Ruby23/rails/Portfolio/.gitignore",
+		"/C/Ruby23/rails/Portfolio/config/environments/test.rb",
+		"/C/Ruby23/rails/Portfolio/test/controllers/contact_controller_test.rb",
+		"/C/Ruby23/rails/Portfolio/test/test_helper.rb",
+		"/C/Ruby23/rails/Portfolio/config.ru",
+		"/C/Users/Ewa/Desktop/logiconepager/sftp-config.json",
+		"/C/Ruby23/rails/Portfolio/app/models/contact_form.rb",
+		"/C/Ruby23/rails/Portfolio/config/initializers/smtp.yml",
+		"/C/Users/Ewa/Desktop/logiconepager/app/controllers/settings_controller.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/controllers/services_controller.rb",
+		"/F/projects job 07-16/contest/models/entry.rb",
+		"/F/projects job 07-16/contest/models/message.rb",
+		"/F/projects job 07-16/contest/views/shared/_errors.html.erb",
+		"/F/projects job 07-16/contest/views/entry_mailer/entry_confirmation.text.erb",
+		"/F/projects job 07-16/contest/views/entry_mailer/entry_confirmation.html.erb",
+		"/F/projects job 07-16/contest/views/votes_mailer/vote_confirmation.text.erb",
+		"/F/projects job 07-16/contest/views/votes_mailer/vote_confirmation.html.erb",
+		"/F/projects job 07-16/contest/views/vote_confirmations/info.html.erb",
+		"/F/projects job 07-16/contest/views/shared/_footer.html.erb",
+		"/F/projects job 07-16/contest/views/layouts/signin.html.erb",
+		"/F/projects job 07-16/contest/views/shared/_flash.html.erb",
+		"/F/projects job 07-16/contest/views/layouts/mailer.html.erb",
+		"/F/projects job 07-16/contest/views/layouts/mailer.text.erb",
+		"/F/projects job 07-16/contest/views/layouts/application.html.erb",
+		"/F/projects job 07-16/contest/mailers/votes_mailer.rb",
+		"/F/projects job 07-16/contest/mailers/application_mailer.rb",
+		"/F/projects job 07-16/contest/mailers/entry_mailer.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/helpers/messages_helper.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/controllers/messages_controller.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/mailers/visit_mailer.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/controllers/home_controller.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/config/routes.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/app/mailers/application_mailer.rb",
+		"/C/Ruby23/rails/Portfolio/test/mailers/previews/send_email_mailer_preview.rb",
+		"/C/Users/Ewa/Desktop/logiconepager/Gemfile",
+		"/C/Users/Ewa/Desktop/logiconepager/config/database.yml",
+		"/F/logiconepager/app/views/messages/_new1.html.erb",
+		"/F/logiconepager/app/views/layouts/application.html.erb",
+		"/C/Ruby23/rails/Portfolio/app/views/portfolio/index.html.erb",
+		"/C/Ruby23/rails/Portfolio/app/views/curriculum_vitae/index.html.erb",
+		"/C/Ruby23/rails/Portfolio/app/controllers/application_controller.rb",
+		"/C/Ruby23/rails/Portfolio/app/helpers/application_helper.rb",
+		"/C/Ruby23/rails/Portfolio/app/views/layouts/mailer.text.erb",
+		"/C/Ruby23/rails/Portfolio/app/views/layouts/mailer.html.erb",
+		"/C/Ruby23/rails/Portfolio/test/mailers/send_email_mailer_test.rb",
+		"/F/logiconepager/app/views/home/index.html.erb",
+		"/F/logic/app/mailers/visit_mailer.rb",
+		"/F/logic/app/mailers/application_mailer.rb",
+		"/F/logic/test/mailers/visit_mailer_test.rb",
+		"/C/Ruby23/rails/Portfolio/app/assets/stylesheets/style_for_ie.css.scss",
+		"/C/Ruby23/rails/Portfolio/app/controllers/curriculum_vitae_controller.rb",
+		"/F/logiconepager/app/views/messages/new.html.erb",
+		"/C/Ruby23/rails/Portfolio/app/views/home/index.html.erb",
+		"/C/Ruby23/rails/Portfolio/app/assets/javascripts/ie_support.js",
+		"/D/logiconepager/app/views/admin/index.html.erb",
+		"/D/logiconepager/config/routes.rb",
+		"/D/logiconepager/app/views/home/index.html.erb",
+		"/D/logiconepager/app/views/layouts/admin.html.erb",
+		"/C/Ruby23/rails/Portfolio/app/controllers/portfolio_controller.rb",
+		"/C/Ruby23/rails/Portfolio/app/controllers/home_controller.rb",
+		"/C/Ruby23/rails/Portfolio/config/boot.rb",
+		"/C/Ruby23/rails/Portfolio/config/database.yml",
+		"/C/Users/Ewa/Downloads/lightbox2-master/lightbox2-master/src/js/lightbox.js",
+		"/D/contest/views/layouts/application.html.erb",
+		"/C/Ruby23/rails/Portfolio/app/assets/stylesheets/style_rwd.css.scss",
+		"/D/contest/controllers/home_controller.rb",
+		"/D/contest/controllers/application_controller.rb",
+		"/C/Ruby23/rails/Portfolio/app/assets/stylesheets/application.css",
+		"/D/logiconepager/app/assets/stylesheets/style.css.scss",
+		"/C/Users/Ewa/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Ewa/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Ewa/Desktop/Portfolio/Gemfile"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Ruby23\\rails\\Portfolio",
+			"C:\\Users\\Ewa\\Desktop\\logiconepager"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"field_with_errors",
+			"new_message",
+			"puste",
+			"nie może być puste",
+			"errors",
+			"full_messages",
+			"pentag",
+			"button",
+			"contain",
+			"h3",
+			"cv .clause",
+			"span",
+			"h2",
+			"Agency F",
+			"Agency FB",
+			"Gill Sans MT",
+			"h1",
+			"image",
+			"imgae",
+			"url",
+			"input",
+			"<!DOCTYPE html>\n<html lang=\"pl en\">\n<head>\n\t<title>Ewa Łokas - frontend developer</title>\n\t<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>\n\t<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>\n\t<meta charset=\"utf-8\" />\n<!--[if IE 8]>\n    <link rel=\"stylesheet\" media=\"all\" href=\"/assets/style_for_ie.css.scss\" data-turbolinks-track=\"true\" />\n<![endif]-->\n\t<%= csrf_meta_tags %>\n</head>\n<body>\n\t<header>\n\t\t\t<div class=\"changeLang\">\n\t\t\n\t\t\t<div class=\"pentagon\">\t\t\t\n\t\t\t\t<div class=\"piece1\"></div>\n\t\t\t\t<div class=\"piece2\"></div>\n\t\t\t\t<div class=\"piece3\"></div>\n\t\t\t\t<div class=\"piece4\"></div>\n\t\t\t\t<div class=\"piece5\"></div>\t\n\t\t\t\t<%= link_to('En', url_for( :locale => 'en' )) %>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"pentagon\">\t\t\n\t\t\t\t<div class=\"piece1\"></div>\n\t\t\t\t<div class=\"piece2\"></div>\t\n\t\t\t\t<div class=\"piece3\"></div>\n\t\t\t\t<div class=\"piece4\"></div>\n\t\t\t\t<div class=\"piece5\"></div>\n\t\t\t\t<%= link_to('Pl', url_for( :locale => 'pl' )) %>\n\t\t\t</div>\n\t\t\t<div class=\"clear\"></div>\n\t\t</div>\n\t\t<h1>Frontend Developer</h1>\n\t\t<h2>Ewa Łokas</h2>\n\t\t<nav>\n\t\t<h1>Menu</h1>\n\n\t\t\t<ul>\n\t\t\t\t<li><%= link_to t('home') , home_path, class: (\"active\" if params[:controller] == 'home' ) %></li>\n\t\t\t\t<li><%= link_to \"Portfolio\" , portfolio_path, class: (\"active\" if params[:controller] == 'portfolio' ) %></li>\n\t\t\t\t<li class=\"logotype\">\n\t\t\t\t\t<div class=\"containerPentagon\">\n\t\t\t\t\t\t<div class=\"piece1\"></div>\n\t\t\t\t\t\t<div class=\"piece2\"></div>\t\n\t\t\t\t\t\t<div class=\"piece3\"></div>\n\t\t\t\t\t\t<div class=\"piece4\"></div>\n\t\t\t\t\t\t<div class=\"piece5\"></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<!--[if IE 8]>\n   <%= image_tag(\"logotype.png\") %>\n<![endif]-->\n\t\t\t\t\t<!-- in this block add in css after and before elements -->\n\t\t\t\t\t\n\t\t\t\t\t<!-- <span>Developer</span>  -->\n\t\t\t\t</li>\n\t\t\t\t<li><%= link_to \"CV\" , curriculum_vitae_path, class: (\"active\" if params[:controller] == 'curriculum_vitae' ) %></li>\n\t\t\t\t<li><%= link_to \"Contact\" , contact_path, class: (\"active\" if params[:controller] == 'contact' ) %></li>\n\t\t\t</ul>\n\t\t</nav>\n\n\t</header>\n\t\t\t<div class=\"pattern\">\n\t\t\t<div class=\"pentagon\">\t\t\n\t\t\t\t<div class=\"piece1\"></div>\n\t\t\t\t<div class=\"piece2\"></div>\t\n\t\t\t\t<div class=\"piece3\"></div>\n\t\t\t\t<div class=\"piece4\"></div>\n\t\t\t\t<div class=\"piece5\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"pentagon\">\t\t\n\t\t\t\t<div class=\"piece1\"></div>\n\t\t\t\t<div class=\"piece2\"></div>\t\n\t\t\t\t<div class=\"piece3\"></div>\n\t\t\t\t<div class=\"piece4\"></div>\n\t\t\t\t<div class=\"piece5\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"pentagon\">\t\t\n\t\t\t\t<div class=\"piece1\"></div>\n\t\t\t\t<div class=\"piece2\"></div>\t\n\t\t\t\t<div class=\"piece3\"></div>\n\t\t\t\t<div class=\"piece4\"></div>\n\t\t\t\t<div class=\"piece5\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"pentagon\">\t\t\n\t\t\t\t<div class=\"piece1\"></div>\n\t\t\t\t<div class=\"piece2\"></div>\t\n\t\t\t\t<div class=\"piece3\"></div>\n\t\t\t\t<div class=\"piece4\"></div>\n\t\t\t\t<div class=\"piece5\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"pentagon\">\t\t\n\t\t\t\t<div class=\"piece1\"></div>\n\t\t\t\t<div class=\"piece2\"></div>\t\n\t\t\t\t<div class=\"piece3\"></div>\n\t\t\t\t<div class=\"piece4\"></div>\n\t\t\t\t<div class=\"piece5\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"pentagon\">\t\t\n\t\t\t\t<div class=\"piece1\"></div>\n\t\t\t\t<div class=\"piece2\"></div>\t\n\t\t\t\t<div class=\"piece3\"></div>\n\t\t\t\t<div class=\"piece4\"></div>\n\t\t\t\t<div class=\"piece5\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"pentagon\">\t\t\n\t\t\t\t<div class=\"piece1\"></div>\n\t\t\t\t<div class=\"piece2\"></div>\t\n\t\t\t\t<div class=\"piece3\"></div>\n\t\t\t\t<div class=\"piece4\"></div>\n\t\t\t\t<div class=\"piece5\"></div>\n\t\t\t</div>\n\t\t</div>\n\t<div class=\"container\">\n\t\t<!-- in section (this section is for all links add in other files h1 tags) there are contents , background content  -->\t\n\t\t<%= yield %>\n\t</div>\n\t<footer>\n\t\t<p>copyright by Ewa Łokas 2016</p>\n\t</footer>\n</body>\n</html>\n",
+			"header",
+			";\n",
+			"lang",
+			"animation",
+			"{\n",
+			"animation",
+			"butto",
+			"btn",
+			"nav",
+			"container",
+			"rail"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 447.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

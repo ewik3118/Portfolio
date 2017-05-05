@@ -1,0 +1,528 @@
+
+@mixin breakpoint($point) {
+@if $point == desktop {
+@media (max-width: 1200px) { @content; }
+}
+@if $point == desktopSm {
+@media (max-width: 1024px) { @content; }
+}
+@if $point == phablet {
+@media (max-width: 800px) { @content; }
+}
+@if $point == phabletSm{
+@media (max-width: 640px) { @content; }
+}
+@if $point == iphone {
+@media (max-width: 480px) { @content; }
+}
+@if $point == phone {
+@media (max-width: 320px) { @content; }
+}
+}
+
+@keyframes menu{
+0%{
+background: #fffdba;
+}
+100%{
+background: #ffb04a;
+}
+}
+
+@include breakpoint(desktop){
+  .home{
+    max-width: 890px;
+.contentAbout{
+width: 268px;
+float: left;
+}
+p,   p.forPicture{
+width: 275px;
+}
+.myPhoto{
+float: none;
+}
+}
+.item{
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+.col2{
+width: 72%;
+}
+.col4{
+width: 25%;
+}
+.pattern2{
+margin-left: 0;
+}
+&:nth-child(odd) 
+{
+.descrip {
+  float: left;
+  margin-left: 15px;
+}
+.tags{
+  float: left;
+}
+}
+}
+
+}
+@include breakpoint(desktopSm){
+.home{
+max-width: 771px;
+.icons{
+  width: 516px;
+}
+.contentAbout{
+  width: 255px;
+}
+p{
+  width: 255px;
+}
+}
+.icons{
+.smallDarkest{
+display: none;
+}
+}
+
+
+.pattern2{
+margin-left: 0;
+}
+.contact{
+max-width: 730px;
+.col1 {
+width: 74.5%;
+}
+.col5{
+width: 24.5%;
+}
+}
+.item{
+height: auto;
+.mockup{
+float: none;
+width: 695px;
+height: 518px;
+margin: auto;
+
+}
+&:nth-child(odd){
+.mockup{
+float: none;
+}
+.aboutSite{
+float: none;
+width: 695px;
+max-width: none;
+}
+}
+.aboutSite{
+float: none;
+width: 695px;
+margin: auto;
+
+.pattern2, .clear{
+float: none;
+display: inline-block;
+
+}
+.descrip{
+float: left;
+}
+.pattern2{
+display: none;
+}
+.tags{
+margin-left: 30px;
+margin-top: 0;
+float: left;
+max-width: 300px;
+}
+}
+}
+}
+
+@include breakpoint(phablet){
+nav{
+ul{
+  li{
+    a{
+      font-size: 17px;
+    }
+  }
+}
+
+}
+.home{
+max-width: 542px;
+.icons{
+  width: 285px;
+  left: -182px;
+  .smallDarker, .small{
+    display: none;
+  }
+}
+}
+.logotype {
+
+.containerPentagon {
+  width: 100px;
+  height: 100px;
+      top: -60px;
+    .logo{
+        width: 98px;
+  }
+}
+}
+.container{
+padding-top: 0;
+}
+.cv{
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+.pattern2{
+margin-left: -60px;
+}
+input[type="text"], textarea{
+float: none;
+margin-bottom: 5px;
+}
+.comError {
+background: transparent;
+color: #fff;
+float: none;
+height: auto; 
+margin-left: 0;
+padding: 0; 
+position: static;
+width: auto;
+ &:after {
+  display: none;
+ }
+ span{
+      color: #fff;
+ }
+}
+.contact{
+max-width: 550px;
+input[type="submit"]{
+  margin-top: 30px;
+}
+.col1{
+  width: 68.5%;
+}
+.col5{
+  width: 31.5%;
+}
+}
+.item{
+width: 542px;
+
+
+&:nth-child(odd) {
+
+
+
+  .aboutSite{
+    width: 542px;
+    .descrip{
+      float: left;
+    }
+  }
+  .mockup{
+    width: 542px;
+  }
+}
+.aboutSite{
+  width: 542px;
+  .tags{
+    float: left;
+  }
+  .clear{
+    display: none;
+  }
+  .descrip{
+   float: left;
+ }
+}
+.mockup{
+width: 542px;
+
+.phablet, .phone{
+  display: none;
+}
+.desktop{
+  left: 0;
+  right: 0;
+}
+}
+
+}
+}
+
+@include breakpoint(phabletSm){
+header{
+ height: auto;
+ .logotype_two{
+  display: block;
+ }
+nav{
+  height: auto;
+  margin-top: 11px;
+  ul{
+    li{
+      display: block;
+      height: 44px;
+      width: 100%;
+      &:nth-child(3){
+        height: 0;
+      }
+      a{
+        padding-top: 12px;
+        height: calc(100% - 12px);
+        display: block;
+        &:after{
+          display: none;
+        }
+        &:hover{
+          animation: menu 1s linear 0s;
+          background: #ffb04a;
+        }
+        &.active{
+          background: #ffb04a;
+        }
+      }
+    }
+  }
+}
+#menu {
+  display: none;
+}
+}
+.home{
+max-width: none;
+margin-left: 5%;
+margin-right: 5%;
+width: 90%;
+.contentAbout{
+  float: none;
+  margin: auto;
+  width: 100%;
+}
+p, p.forPicture{
+  width: 80%;
+}
+p.forPicture{
+  margin-top: 10px;
+}
+.icons{
+  float: none;
+  margin: auto;
+  top: -211px;
+}
+.myPhoto{
+  margin: auto;
+}
+}
+.logotype{
+position: static;
+.containerPentagon{
+  top: -10px;
+  left: 10px;
+  right: auto;
+}
+}
+.changeLang .hamburger{
+  display: block;
+}
+.pattern2{
+display: none;
+}
+.cv{
+ul{
+  li{
+    h3, p {
+      display: block;
+      width: 90%;
+      float: none;
+    }
+    .col1 , .col5{
+      float: none;
+
+    }
+  }
+}
+button{
+  float: none;
+  margin: auto;
+  display: block;
+}
+.clause{
+  margin-top:0;
+  width: 80%;
+}
+.btn {
+  margin: auto;
+  float: none;
+}
+}
+.contact{
+ul{
+  display: block;
+  float: none;
+  li{
+    width: 350px;
+    margin:auto;
+    float: none;
+  }
+}
+.col1, .col5{
+  width: 100%;
+  margin: auto;
+}
+.col5{
+  margin-top:35px;
+}
+.icon{
+  margin-bottom: 11px;
+}
+}
+.item{
+width: 400px;
+.mockup{
+  height: 384px;
+  width: 400px;
+  
+  .desktop{
+    width: 400px;
+    height: auto;
+  }
+}
+.aboutSite{
+  width: 400px;
+  .tags{
+    max-width: 226px;
+  }
+}
+&:nth-child(odd){
+  .mockup{
+    width: 400px;
+    .desktop{
+
+      width: 400px;
+      height: auto;
+
+      }}
+      .aboutSite{
+        width: 400px;
+        .tags{
+          max-width: 226px;
+        }
+      }
+    }
+  }
+.notice {
+  margin: 20px auto;
+}
+}
+
+@include breakpoint(iphone){
+  header{
+    nav{
+     li{
+      &:nth-child(3){
+        display: none;
+      }
+    }
+  }
+}
+.contact{
+  ul{
+    li{
+      width: 200px;
+    }
+  }
+}
+input[type="text"], textarea{
+  width: 160px;
+  margin-bottom: 1px;
+}
+.comError{
+  font-size: 13px;
+}
+.item{
+  width: 100%;
+  .mockup{
+    height: auto;
+    width: 100%;
+    position: static;
+    .desktop{
+      width: 90%;
+      margin: auto;
+      display: block;
+      position: static;
+
+    }
+  }
+  .aboutSite{
+    width: 100%;
+    .tags{
+     margin-left: 10px;
+     display: block;
+     float: none;
+   }
+   .clear{
+    display: block;
+
+  }
+}
+&:nth-child(odd){
+  .mockup{
+      width: 100%;
+     
+
+    .desktop{
+    display:block;
+
+       width: 90%;
+    }
+  }
+  .aboutSite{
+    width: 100%;
+    .tags{
+     margin-left: 10px;
+     display: block;
+     float: none;
+   }
+   .clear{
+    display: block;
+
+  }
+}
+}
+
+}
+.notice{
+  width: 204px;
+  font-size: 15px;
+}
+.logotype {
+
+.containerPentagon {
+  width: 45px;
+  height: 45px;
+      top: -4px;
+    .logo{
+        width: 46px;
+  }
+}
+}
+
+
+}

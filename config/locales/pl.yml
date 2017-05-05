@@ -1,0 +1,126 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+pl:
+  hello: "Hello world"
+  home: "O mnie"
+  portfolio: "Portfolio"
+  cv: "Cv"
+  contact: "Kontakt"
+  cvHeader: "Curriculum Vitae"
+#home
+  text1: "Jestem webdeveloperem od 4 lat. I work freelance and in work.
+    I have 4 years experience. I work in PHP, Rouby On Rail ,
+    Java Script, jQuery, Wordpress, Bootstrap, SASS , HTML
+    , CSS. I work in technologies/ languages. In free time i like ."
+  text2: "jestem webdeveloperem od 4 lat. I work freelance and in work.
+    I have 4 years experience. I work in PHP, Rouby On Rail ,
+    Java Script, jQuery, Wordpress, Bootstrap, SASS , HTML
+    , CSS. I work in technologies/ languages. In free time i like ."
+#form
+  name: "Imię*"
+  surname: "Nazwisko*"
+  email: "E-mail*"
+  phone: "Nr Telefonu*"
+  message: "Twoja wiadomość*"
+  error_validation: "Popraw błedy w formularzu:"
+  error_server_send: "Problem z dostarczeniem wiadomości."
+  send_communicate: "Twoja wiadomośc została wysłana."
+#portfolio
+  see_more: "Zobacz"
+#cv
+  skills: "Umiejętności programistyczne"
+  skillsHeader1: "Programowanie i "
+  skillsHeader2: "Libraries And Preprocessors"
+  skillsHeader3: "Frameworks"
+  skillsHeader4: "Operating Systems"
+  skillsHeader5: "Databases"
+  skillsHeader6: "Systems Version Control"
+  skillsHeader7: "CMS And Engines Online Stores"
+  skillsHeader8: "Grahics Programs"
+  skillsHeader9: "Patterns And Techniques"
+  experience: "Relevant Experience"
+  education: "EDUCATION"
+  clause: "I hereby agree for my personal data, included in my job application, to be processed in
+    line with the needs of recruitment, in accordance with the Law on Personal Data
+    Protection of 29 August 1997 (Law Gazette from 2002, No.101, heading 926, as
+    amended)"
+  hard: "Hard"
+  medium: "Medium"
+  basic: "Basic"
+  actually: "actually"
+  for_system: "(service and administration)"
+  logicims_brand_desc: "- website created in Ruby on Rails. I coded template."
+  adretail_brand_desc: "- website maked in PHP and Wordpress. I coded a template."
+  contest: "contest"
+  acidolac_brand_desc: "- website maked in Ruby on Rails. I
+      coded layer frontend in
+      javaScript, CSS3, HTML5 and SASS."
+  promocyjni_brand_desc: " - I added new modules in website."
+  grapeapps_brand_desc: "- I cutted template. "
+  essence_brand_desc: "- I cutted template."
+  inpost_brand_desc: "- This website maked in Typo3. I added new modules in website. "
+  weknowhow_brand_desc: "- I added new modules in website. "
+  gallerykazimierz_brand_desc: "I created responsive pages in JS and CSS, loading tiles used isotope. "
+  hipp_brand_desc: "- module invite to play in PHP (send e-mail to the address validation, SQL hash)
+      filtering and sorting calendar"
+  mennica_brand_desc: "- I created search the nearest points of banking."
+  podstadionem_brand_desc: "- I coded layer frontend."
+  falservices_brand: "Work with e-commerce platform, 3D and company store 
+Create Unit Tests (PHPUnit), mock, dummy, stub, fake
+Create a platform for fremework Symfony2
+the creation of modules login, register, work with the database, create pages without
+reloading."
+  training: "training"
+  maszyna_brand_desc: "cutting templates and coding to the szablony.org"
+  study: "Technical Physics - Cracow University of Technology"
+  school: "Technician with a specialization in web applications - Technical Energy and Electronic them. Tadeusza Kosciuszki No. 7 in Cracow."
+  mail_form:
+    errors:
+      models:
+        contact: # or namespace/model_name
+          attributes:
+            name:
+              bad_long_name: "Maksymalna ilość znaków to %{count}."
+              bad_empty_name: "Podaj swoje imię."
+              bad_format_name: "Zły format imienia, dozwolone tylko litery."   
+              bad_name: "Imię jest nieprawidłowe."
+              bad_long_short_name: "Minimalna ilość znaków to %{count}."         
+            surname:
+              bad_long_surname: "Maksymalna ilość znaków to %{count}."
+              bad_empty_surname: "Podaj swoje nazwisko."
+              bad_format_surname: "Zły format nazwiska, dozwolone tylko litery."
+              bad_name: "Nazwisko jest nieprawidłowe"   
+              bad_long_short_surname: "Minimalna ilość znaków to %{count}."    
+            phone:
+              bad_long_phone: "Maksymalna ilość znaków to %{count}."
+              bad_empty_phone: "Podaj swój telefon."
+              bad_format_phone: "Zły format telefonu, dozwolone tylko cyfry."
+              bad_long_short_phone: "Minimalna ilość znaków to %{count}."    
+            email:
+              bad_long_email: "Maksymalna ilość znaków to %{count}."
+              bad_empty_email: "Podaj swój e-mail."
+              bad_format_email: "Zły format e-mail."
+              bad_long_short_email: "Minimalna ilość znaków to %{count}."   
+            message_text:
+              bad_long_message: "Maksymalna ilość znaków to %{count}."
+              bad_empty_message: "Wpisz wiadomość."
+              bad_long_short_message: "Minimalna ilość znaków to %{count}."   

@@ -1,0 +1,85 @@
+<section class="contact">
+	<h1><%= t("contact") %></h1>
+	<ul class="col5">
+		<li>
+			<div class="icon">
+				<div class="piece1"></div>
+				<div class="piece2"></div>	
+				<div class="piece3"></div>
+				<div class="piece4"></div>
+				<div class="piece5"></div>
+				<%= image_tag("envelope_icon.png") %>
+			</div>
+			<p>ewik3118@wp.pl</p>
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			<div class="icon">
+				<div class="piece1"></div>
+				<div class="piece2"></div>	
+				<div class="piece3"></div>
+				<div class="piece4"></div>
+				<div class="piece5"></div>
+				<%= image_tag("phone_icon.png") %></div>
+				<p>501 679 742</p>
+				<div class="clear"></div>
+			</li>
+			<li>
+				<div class="icon">
+					<div class="piece1"></div>
+					<div class="piece2"></div>	
+					<div class="piece3"></div>
+					<div class="piece4"></div>
+					<div class="piece5"></div>
+					<%= image_tag("skype_icon.png") %></div>
+					<p>e_w_u_s_k_a1</p>
+					<div class="clear"></div>
+				</li>
+			</ul>
+			<ul class="col1">
+	<div class="notice" id="sendFormCommunicate">			<% if flash[:notice] %>
+    <%= flash[:notice] %><% end %>
+    	
+    </div>
+  
+		<%= form_for @contact, url: contact_path do |m| %>
+
+			<li>
+				<%= m.text_field :name,  class: 'field', placeholder: t('name') %>
+				<div class="comError" id="errorName"><span><% if @contact.errors[:name].any? %>  <%= @contact.errors[:name].join(" ") %><% end %></span></div>
+
+
+			</li>
+			<li>
+				<%= m.text_field :surname, class: 'field', placeholder: t('surname') %>
+				<div class="comError" id="errorSurname"><span><% if @contact.errors[:surname].any? %>  <%= @contact.errors[:surname].join(" ") %><% end %></span></div>
+			</li>
+			<li>
+				<%= m.text_field :email,  class: 'field', placeholder: t('email') %>
+				<div class="comError" id="errorEmail"><span><% if @contact.errors[:email].any? %>  <%= @contact.errors[:email].join(" ") %><% end %></span></div>
+			</li>
+			<li>
+				<%= m.text_field :phone,  class: 'field', placeholder: t('phone') %>
+				<div class="comError" id="errorPhone"><span><% if @contact.errors[:phone].any? %> <%= @contact.errors[:phone].join(" ") %><% end %></span></div>
+			</li>
+			<li>
+				<%= m.text_area :message_text, class: 'field', placeholder: t('message') %>
+				<div class="comError" id="errorMessage"><span><% if @contact.errors[:message_text].any? %>  <%= @contact.errors[:message_text].join(" ") %><% end %></span></div>
+			</li>
+			<li>
+				
+				<%= m.submit 'Send', id: 'sendFormBtn' %>
+
+			</li>
+
+<% end %>
+
+
+
+
+	</ul>
+
+
+	<div class="clear"></div>
+</section>
